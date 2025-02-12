@@ -26,14 +26,13 @@ int main(int argc , char **argv) {
         }
         else {
       enqueue(&headPtr,&tailPtr, atoi(argv[i]));
-      printf("%d",atoi(argv[i]));
-      printf("\n");
+    //  printf("%d",atoi(argv[i]));
+   //   printf("\n");
        
         }
         
  }
 
- int dequeue_struct(Queue *q);
-void enqueue_struct(Queue* q, int x);
+ 
   return 0;
 }

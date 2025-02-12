@@ -33,7 +33,6 @@ int dequeue(NodePtr* head, NodePtr* tail){
   NodePtr t=*head;
    if(t){
    int value= t->data;
-   /* Finish dequeue*/
   *head= t->nextPtr; // NULL
   if(*head==NULL) *tail=NULL;
   free(t);  

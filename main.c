@@ -33,7 +33,7 @@ int main(int argc , char **argv) {
         
  }
 
- 
-
+ int dequeue_struct(Queue *q);
+void enqueue_struct(Queue* q, int x);
   return 0;
 }

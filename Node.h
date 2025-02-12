@@ -38,7 +38,7 @@ int dequeue(NodePtr* head, NodePtr* tail){
   free(t);  
    return value;
    }
-   printf("Empty queue \n");
+   printf("Empty queue\n");
    return 0;
 }
 

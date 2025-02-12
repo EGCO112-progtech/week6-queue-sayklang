@@ -22,7 +22,7 @@ int main(int argc , char **argv) {
         
             x=dequeue(&headPtr,&tailPtr);
             if(x!=0)
-            printf("dequeing %d \n",x);
+            printf("dequeing %d\n",x);
         }
         else {
       enqueue(&headPtr,&tailPtr, atoi(argv[i]));

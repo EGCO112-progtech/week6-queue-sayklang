@@ -28,13 +28,14 @@ int dequeue_struct(Queue *q){
    if(q->size==0)
     q->headPtr= q->headPtr->nextPtr;
     q->size--;
-   }/*
+   } 
+  Node* t = q->headPtr;
    if(t){
    int value= t->data;
   free(t);
    return value;
    }
    printf("Empty queue");
-   return 0;*/
+   return 0;
 }
 
